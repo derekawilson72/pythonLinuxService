@@ -1,4 +1,4 @@
-#!/opt/anaconda/bin/python
+#!python
 import time
 from daemon import runner
 import threading
@@ -99,7 +99,7 @@ daemon_runner.do_action()
 
 
 ##remote in to ipython console 
-##/opt/anaconda/bin/ipython console --existing kernel-3358.json
+##ipython console --existing kernel-3358.json
 ##access self variable
 ##self.name
 ##'sample python daemon'
