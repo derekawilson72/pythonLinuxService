@@ -1,4 +1,4 @@
-#!/opt/anaconda/bin/python
+#!python
 import time
 from daemon import runner
 import threading
@@ -66,7 +66,7 @@ daemon_runner.do_action()
 
 
 ##remote in to python console 
-##/opt/anaconda/bin/pyrasite-shell <PID>
+##pyrasite-shell <PID>
 ##access 
 ##app.name
 ##'sample python daemon'
